@@ -123,22 +123,57 @@ p {
     font-weight: normal;
 }
 
+
 /* Inizio degli aside*/
+
+
+/* ASIDE-1*/
 
 #aside-1 {
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 #aside-1 img {
     margin-top: 50px;
-    width: 200px;
+    width: 250px;
 }
 
-#aside-1 h3 {
-    color:rgb(0, 149, 241);
+
+/* ASIDE-2 */
+
+#aside-2 {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
+#aside-2 img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+
+
+/* ASIDE-3 */
+
+#aside-3 {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 70px;
+}
+
+#aside-3 img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
 
 
