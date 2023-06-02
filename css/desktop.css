@@ -28,37 +28,66 @@ body {
 #section-1 {
     max-width: 1920px;
     margin: 0 auto;
-}
-
-#img-2 {
-    width: 100%;
+    background-image: url('/images/banner.jpg');
     height: 600px;
-    object-fit: cover;
+    text-align: center;
+    line-height: 20px;
 }
 
+#section-1 h1 {
+    color: rgba(3, 135, 184, 0.866);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 250px;
+    margin-bottom: 20px;
+}
+
+#section-1 p {
+    margin-bottom: 15px;
+}
+
+#button-sec1 {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(230, 54, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* SECTION 2 */
 
 #section-2 {
     max-width: 1920px;
     margin: 0 auto;
-    background-color: pink;
 }
 
-#img-3 {
-    display: ;
-    border-radius: 213px;
-    margin: 30px;
-}
-
-#section-2 p {
+#div1-sec2 {
     display: inline-block;
-    padding-top: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+ #img-3 {
+    border-radius: 213px;
+    margin-left: 100px;
+ }
 
 
-/* DA FINIRE ALL'ULTIMO */
+ #div2-sec2 {
+    display: inline-block;
+    margin-left: 20px;
+ }
+
+ #div2-sec2 p {
+    line-height: 25px;
+ }
+
+ .p1-d2-s2 {
+    color:rgba(3, 135, 184, 0.866);
+    font-weight: bold;
+ }
 
 
 /* SECTION-3 */
@@ -73,6 +102,7 @@ body {
 }
 
 #section-3 > h1 {
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 13px;
 }
@@ -91,23 +121,48 @@ body {
 
 }
 
+
+
 /* SECTION-4 */
 
 #section-4 {
     max-width: 1920px;
     margin: 0 auto;
-    height: 500px;
+}
+
+#section-4 div {
+    width: 300px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+#section-4 p {
+    color: rgb(107, 107, 107);
 }
 
 #div1-sec4 {
-    width: 30%;
-    text-align: center;
+    margin-left: 300px;
+    margin-right: 30px;
 }
 
-#div1-sec4 img {
-    width: 100%''
+#div2-sec4 {
+    margin-right: 30px;
 }
 
+.img-sec4 {
+    width: 300px;
+    height: 200px;
+}
+
+.h1-sec4 {
+    color:rgba(3, 135, 184, 0.866);
+    font-weight: bold;
+}
 
 
 /* FOOTER */
